@@ -7,6 +7,7 @@ The system automatically controls a street light according to the surrounding li
 A Flutter mobile application is also developed to monitor the street light system remotely. The application retrieves data from the same Supabase database and displays the current light intensity, street light status, RGB condition, and recent readings.
 
 
+
 📌 Project Overview
 
 The system consists of two main parts:
@@ -14,24 +15,40 @@ The system consists of two main parts:
 Task 01 – Smart Street Light Monitoring System
 
 The ESP32-based IoT system:
+
 Reads ambient light intensity using an LDR sensor.
+
 Converts the analog LDR value into a percentage.
+
 Automatically controls the street light according to the light level.
+
 Uses an RGB LED to indicate the current environmental condition.
+
 Displays light intensity and street light status on a 16x2 I2C LCD.
+
 Sends sensor data to Supabase every 5 seconds.
+
 
 Task 02 – Mobile Application
 
 A Flutter mobile application is developed to:
+
 Connect to the same Supabase project.
+
 Retrieve the latest street light data.
+
 Display the current light intensity.
+
 Display the street light ON/OFF status.
+
 Display the current RGB condition.
+
 Show the latest update time.
+
 Display recent sensor readings.
+
 Provide a manual refresh option.
+
 Support real-time monitoring through Supabase updates.
 
 🎯 Aims
