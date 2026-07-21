@@ -122,10 +122,13 @@ Timestamp
 The mobile application provides a simple dashboard for monitoring the smart street light system.
 
 The dashboard displays:
+
 ☀️ Light Intensity
+
 Shows the current ambient light intensity as a percentage.
 
 💡 Street Light Status
+
 Displays whether the street light is currently:
 
 ON
@@ -134,6 +137,7 @@ OFF
 
 
 🔴🟢🔵 Current Condition
+
 Displays the current environmental condition using a colored indicator:
 
 🟢 Green – Bright
@@ -145,12 +149,15 @@ Displays the current environmental condition using a colored indicator:
 🔴 Red Blinking – Very Dark
 
 🕒 Latest Update
+
 Displays the timestamp of the most recent sensor reading.
 
 📊 Recent Readings
+
 Displays the latest sensor readings retrieved from Supabase.
 
 🔄 Refresh
+
 Allows the user to manually refresh the latest data.
 
 
