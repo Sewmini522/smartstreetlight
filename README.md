@@ -56,11 +56,17 @@ Support real-time monitoring through Supabase updates.
 The main aim of this project is to design and implement an intelligent street light automation and monitoring system using an ESP32 microcontroller and LDR sensor.
 
 The system is designed to:
+
 Automatically control street lights based on ambient light conditions.
+
 Monitor the surrounding light intensity.
+
 Indicate different lighting conditions using an RGB LED.
+
 Display system information using an I2C LCD.
+
 Store real-time sensor data in Supabase.
+
 Provide remote monitoring through a Flutter mobile application
 
 🛠️ Technologies and Components Used
