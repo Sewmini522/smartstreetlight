@@ -162,25 +162,36 @@ Allows the user to manually refresh the latest data.
 
 
 🚀 How to Run the Flutter Application
+
 1. Clone the Repository
+   
         git clone GITHUB_REPOSITORY_URL
 
 2. Open the Project
+   
 Open the project in VS Code or Android Studio.
 
 3. Install Dependencies
+
 Run:
+
       flutter pub get
 
-4. Configure Supabase
+4.. Configure Supabase
+   
 Update the Supabase project URL and anonymous API key in the Supabase service file.
+
       static const String _url = 'SUPABASE_URL';
       static const String _anonKey = 'SUPABASE_ANON_KEY';
 
 5. Run the Application
+   
 For Chrome:
+
       flutter run -d chrome
+      
 For Android:
+
       flutter run
 
 
@@ -190,18 +201,28 @@ The system was tested by changing the LDR sensor values in the Wokwi simulation.
 
 The following conditions were tested:
 
+
 Bright environment
+
 Moderate light environment
+
 Dark environment
+
 Very dark environment
 
 The ESP32 successfully:
 
+
 Reads the LDR sensor value.
+
 Calculates the light intensity.
+
 Controls the street light.
+
 Controls the RGB LED.
+
 Displays the information on the I2C LCD.
+
 Sends data to Supabase.
 
 The Flutter application retrieves the stored data and displays the monitoring information through the dashboard.
