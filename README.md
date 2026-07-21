@@ -15,25 +15,40 @@ The system consists of two main parts:
 Task 01 – Smart Street Light Monitoring System
 
 The ESP32-based IoT system:
+
 Reads ambient light intensity using an LDR sensor.
+
 Converts the analog LDR value into a percentage.
+
 Automatically controls the street light according to the light level.
+
 Uses an RGB LED to indicate the current environmental condition.
+
 Displays light intensity and street light status on a 16x2 I2C LCD.
+
 Sends sensor data to Supabase every 5 seconds.
 
 
 Task 02 – Mobile Application
 
 A Flutter mobile application is developed to:
+
 Connect to the same Supabase project.
+
 Retrieve the latest street light data.
+
 Display the current light intensity.
+
 Display the street light ON/OFF status.
+
 Display the current RGB condition.
+
 Show the latest update time.
+
 Display recent sensor readings.
+
 Provide a manual refresh option.
+
 Support real-time monitoring through Supabase updates.
 
 🎯 Aims
@@ -41,11 +56,17 @@ Support real-time monitoring through Supabase updates.
 The main aim of this project is to design and implement an intelligent street light automation and monitoring system using an ESP32 microcontroller and LDR sensor.
 
 The system is designed to:
+
 Automatically control street lights based on ambient light conditions.
+
 Monitor the surrounding light intensity.
+
 Indicate different lighting conditions using an RGB LED.
+
 Display system information using an I2C LCD.
+
 Store real-time sensor data in Supabase.
+
 Provide remote monitoring through a Flutter mobile application
 
 🛠️ Technologies and Components Used
