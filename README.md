@@ -72,13 +72,13 @@ Provide remote monitoring through a Flutter mobile application
 🛠️ Technologies and Components Used
 
 Software and Platforms
-    Arduino / C++
-    VS Code
-    PlatformIO
-    Wokwi
-    Flutter
-    Dart
-    Supabase
+    Arduino / C++    
+    VS Code    
+    PlatformIO    
+    Wokwi    
+    Flutter    
+    Dart    
+    Supabase    
     GitHub
     
 Libraries
