@@ -89,6 +89,7 @@ Libraries
     HTTPClient
     
 Flutter
+
     supabase_flutter
 
 
@@ -108,9 +109,13 @@ The system uses the LDR sensor to determine the surrounding light intensity.
 The ESP32 sends data to the Supabase database every 5 seconds.
 
 The stored data includes:
+
 Light intensity
+
 Street light status
+
 RGB LED state
+
 Timestamp
 
 📱 Flutter Mobile Application
@@ -122,14 +127,21 @@ Shows the current ambient light intensity as a percentage.
 
 💡 Street Light Status
 Displays whether the street light is currently:
+
 ON
+
 OFF
+
 
 🔴🟢🔵 Current Condition
 Displays the current environmental condition using a colored indicator:
+
 🟢 Green – Bright
+
 🔵 Blue – Moderate
+
 🔴 Red – Dark
+
 🔴 Red Blinking – Very Dark
 
 🕒 Latest Update
